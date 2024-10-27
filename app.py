@@ -1,5 +1,8 @@
 # streamlit_app.py
+import os
+os.system('pip install qdrant_client langchain_huggingface langchain-community langchain-qdrant pypdf openai langchain transformers langchain_openai langchain_google_genai')
 
+import streamlit as st
 import streamlit as st
 from qdrant_client import QdrantClient
 from langchain.embeddings import HuggingFaceEmbeddings
