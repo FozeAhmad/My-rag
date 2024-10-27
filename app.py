@@ -1,6 +1,13 @@
 # streamlit_app.py
-import os qdrant_client langchain_huggingface langchain-community langchain-qdrant pypdf openai langchain transformers langchain_openai langchain_google_genai
-
+import os
+import langchain
+import qdrant_client
+import langchain_huggingface
+import langchain-community
+import langchain-qdrant
+import pypdf
+import transformers
+import langchain_google_genai
 import streamlit as st
 
 from qdrant_client import QdrantClient
